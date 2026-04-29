@@ -1,10 +1,20 @@
 function somar(a, b) {
-  return a * b;
+  return a + b;
 }
 
 function mensagemBoasVindas(nome) {
   return `Olá, ${nome}!`;
 }
 
-module.exports = { somar, mensagemBoasVindas };
-export default { somar, mensagemBoasVindas };
+
+function qualMaior(x , y){
+if(x>y){
+  return x
+}else{
+  return y
+}
+}
+
+module.exports = { somar, mensagemBoasVindas, qualMaior};
+// export default { somar, mensagemBoasVindas };
+
