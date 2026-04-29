@@ -8,11 +8,8 @@ function mensagemBoasVindas(nome) {
 
 
 function qualMaior(x , y){
-if(x>y){
-  return x
-}else{
-  return y
-}
+if(x>y){return x}
+else{return y}
 }
 
 module.exports = { somar, mensagemBoasVindas, qualMaior};
