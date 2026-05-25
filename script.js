@@ -27,6 +27,19 @@ function parImpar(x,y){
 
 }
 
-module.exports = { somar, mensagemBoasVindas, qualMaior, parImpar};
+function podeVotar(x){
+  if(x>18 && x<70){{return 'Você é obrigado a votar'}}
+  if(x>16 && x<18){{return 'Você não é obrigado a votar'}}
+  if(x>70){{return 'Você não é obrigado a votar'}}
+  if(x<16){{return 'Você não pode votar'}}
+}
+
+function negPos(x){
+  if(x>0){return `o numero ${x} é positivo`}
+  if(x<0){return `o numero ${x} é negativo`}
+  if(x==0){return `o numero ${x} é igual a 0`}
+}
+
+module.exports = { somar, mensagemBoasVindas, qualMaior, parImpar, podeVotar,negPos};
 // export default { somar, mensagemBoasVindas };
 
