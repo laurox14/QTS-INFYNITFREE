@@ -14,26 +14,21 @@ else{return y}
 
 // exercicio 2
 function parImpar(x,y){
-  
-  if(x%2==0){
-    return `o primeiro numero ${x} é par`
-  }else{
-    return `o primeiro numero ${x} é impar`
-  }
-  if(y%2==0){
-    return `o segundo numero ${y} é impar`
-  }else{
-    return `o segundo numero ${y} é par`
+  if (x % 2 == 0) {
+    return `o primeiro numero ${x} é par`;
+  } else {
+    return `o primeiro numero ${x} é impar`;
   }
 
 }
 
 // exercicio 3
 function podeVotar(x){
-  if(x>18 && x<70){{return 'Você é obrigado a votar'}}
-  if(x>16 && x<18){{return 'Você não é obrigado a votar'}}
-  if(x>=70){{return 'Você não é obrigado a votar'}}
-  if(x<=16){{return 'Você não pode votar'}}
+  if (x >= 18 && x < 70) return 'Você é obrigado a votar';
+  if (x >= 16 && x < 18) return 'Você não é obrigado a votar';
+  if (x >= 70) return 'Você não é obrigado a votar';
+  if (x < 16) return 'Você não pode votar';
+  return 'Idade inválida';
 }
 
 // exercicio 4
@@ -45,14 +40,16 @@ function negPos(x){
 
 // exercicio 5
 function salBonus(x){
-  if(x<2000)
-    return (x * 0.2)
-}
-  if(x>=2000 && x< 5000){
-    return (x * 0.1)
-}
-  if(x>=5000){
-    return (x * 0.05)
+  if (x < 2000) {
+    return x * 0.2;
+  }
+  if (x >= 2000 && x < 5000) {
+    return x * 0.1;
+  }
+  if (x >= 5000) {
+    return x * 0.05;
+  }
+
 }
 
 // exercicio 6
