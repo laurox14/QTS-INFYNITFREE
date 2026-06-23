@@ -1,4 +1,4 @@
-const { somar, mensagemBoasVindas, qualMaior, parImpar, podeVotar, negPos, salBonus, dirigir, mes, conVogal, mediaArray, acesso} = require('./script');
+const { somar, mensagemBoasVindas, qualMaior, parImpar, podeVotar, negPos, salBonus, dirigir, mes, conVogal, mediaArray, acesso} = require('../script');
 
 // exercicio 
 test('soma dois números', () => {

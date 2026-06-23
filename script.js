@@ -85,7 +85,7 @@ function mediaArray(valores){
   let soma = 0 
   for (let i = 0; i < valores.length; i++) { 
     soma += valores[i]
-  }
+  }      
   return (soma/valores.length)
 }
 
@@ -96,6 +96,7 @@ function acesso(nome,senha){
   return 'Acesso negado! Usuário ou senha incorretos!'
 
 }
+
 
 
 module.exports = { somar, mensagemBoasVindas, qualMaior, parImpar, podeVotar,negPos,salBonus,dirigir, mes, conVogal, mediaArray, acesso};
